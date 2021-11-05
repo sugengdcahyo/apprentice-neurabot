@@ -59,3 +59,5 @@ if you want to save the dependencies that are installed in a file, you can do th
     
     pip freeze > file.txt
 
+
+https://drive.google.com/drive/folders/1pP_jfPhJ05fVdEqh1x0WW12ilitDgwfu?usp=sharing
