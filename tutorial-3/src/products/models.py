@@ -5,7 +5,7 @@ from django.utils.translation import ugettext_lazy as _
 
 # Create your models here.
 class Type(models.Model):
-
+    
     name = models.CharField(max_length=125)    
 
     class Meta:
