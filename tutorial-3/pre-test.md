@@ -140,7 +140,7 @@ contoh:
 Fungsi ini akan digunakan di soal nomor 3 saat kita bermaksud mengirimkan text terenkripsi secara berkala dengan urutan acak dalam bentuk text-text yang lebih kecil.
 
 
-### 1.3.2. b. Buatlah fungsi `deshuffle_order`, dengan argument `sftxt` (string) dan `order` (list). Yang akan mengembalikan urutan string kembali seperti semula sebelum di-shuffle. Sedemikian hingga: 
+b. Buatlah fungsi `deshuffle_order`, dengan argument `sftxt` (string) dan `order` (list). Yang akan mengembalikan urutan string kembali seperti semula sebelum di-shuffle. Sedemikian hingga: 
 `deshuffle_order(shuffle_order(txt,order),order) == txt`
  
 **hint: list method `.index()`**
@@ -162,7 +162,7 @@ def deshuffle_order(sftxt,order):
   pass
   # Mulai Kode anda di sini
 ```
-# 2. Sanity check!!!
+Sanity check!!!
  
 ```
 print(shuffle_order('abcd',[2,1,3,0]))
